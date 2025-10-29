@@ -1,0 +1,23 @@
+{
+  "enablePostgres": true,
+  "enableS3": false,
+  "postgres": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "mydb",
+    "user": "readonly_user",
+    "password": "change_me_to_secure_password",
+    "schema": "public",
+    "maxConnections": 10,
+    "idleTimeoutMs": 30000,
+    "connectionTimeoutMs": 5000
+  },
+  "s3": {
+    "region": "us-east-1",
+    "bucket": "my-bucket"
+  },
+  "logging": {
+    "level": "info",
+    "format": "json"
+  }
+}

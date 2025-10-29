@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+npm-debug.log
+
+# Build output
+dist/
+
+# Git
+.git/
+.gitignore
+
+# Configuration with secrets
+config.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
+tests/
+
+# Documentation
+*.md
+!README.md
+
+# CI/CD
+.github/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
